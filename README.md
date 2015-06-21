@@ -6,7 +6,7 @@ Contributions are welcome
 
 #### 1. Clone it
 
-    # git clone git@github.com/NuTyX/kde.git
+    # git clone git://github.com/NuTyX/kde.git
 
 #### 2. adjust /etc/cards by adding the ports directory. By default it should be:
 
@@ -30,7 +30,7 @@ This method means you have ALL the binaries of the base,console and desktop coll
 
 ###### 4.2.1 build a list of package to build
 
-    # bash kde/scritps/kde|cut -d " " -f1 > list
+    # bash kde/scripts/kde|cut -d " " -f1 > list
 
 ###### 4.2.2 build each package per level
 
