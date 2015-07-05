@@ -1,3 +1,9 @@
+# Description : Search & Replace Tool,HTML Image Map Editor,Link Checker,Executor for Kommander dialogs
+# URL: https://www.kde.org/
+# Packager: pierre at nutyx dot org, fanch at nutyx dot org, tnut at nutyx dot org
+# Depends on: cmake automoc4 kde-libs kde-pimlibs ruby 
+name=kde-webdev
+release=1
 
 _name=kdewebdev
 
