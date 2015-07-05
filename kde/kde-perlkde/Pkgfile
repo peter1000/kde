@@ -1,3 +1,9 @@
+# Description : perlkde, Implementation of perl in KDE
+# URL: https://www.kde.org/
+# Packager: pierre at nutyx dot org, fanch at nutyx dot org, tnut at nutyx dot org
+# Depends on: cmake automoc4 kde-libs kde-perlqt kde-smokekde kde-smokegen kde-pimlibs akonadi kde-okular 
+name=kde-perlkde
+release=1
 
 _name=perlkde
 
