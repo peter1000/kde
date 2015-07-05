@@ -1,3 +1,9 @@
+# Description : The ancient Chinese board game for 4 players
+# URL: https://www.kde.org/
+# Packager: pierre at nutyx dot org, fanch at nutyx dot org, tnut at nutyx dot org
+# Depends on: cmake automoc4 kde-libkmahjongg 
+name=kde-kajongg
+release=1
 
 _name=kajongg
 
