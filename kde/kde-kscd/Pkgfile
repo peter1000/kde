@@ -1,3 +1,9 @@
+# Description : kscd, reader of CD under KDE
+# URL: https://www.kde.org/
+# Packager: pierre at nutyx dot org, fanch at nutyx dot org, tnut at nutyx dot org
+# Depends on: cmake automoc4 kde-libs libmusicbrainz3 
+name=kde-kscd
+release=1
 
 _name=kscd
 _name=kscd
