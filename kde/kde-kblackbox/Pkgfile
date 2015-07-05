@@ -1,3 +1,9 @@
+# Description : A game of hide and seek played on a grid of boxes
+# URL: https://www.kde.org/
+# Packager: pierre at nutyx dot org, fanch at nutyx dot org, tnut at nutyx dot org
+# Depends on: cmake automoc4 kde-libkdegames 
+name=kde-kblackbox
+release=1
 
 _name=kblackbox
 
