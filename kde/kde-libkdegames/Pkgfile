@@ -1,3 +1,9 @@
+# Description : Common code and data for many KDE games
+# URL: https://www.kde.org/
+# Packager: pierre at nutyx dot org, fanch at nutyx dot org, tnut at nutyx dot org
+# Depends on: cmake automoc4 kde-libs 
+name=kde-libkdegames
+release=1
 
 _name=libkdegames
 
