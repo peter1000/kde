@@ -1,3 +1,9 @@
+# Description : A scan plugin that implements the scanning
+# URL: https://www.kde.org/
+# Packager: pierre at nutyx dot org, fanch at nutyx dot org, tnut at nutyx dot org
+# Depends on: kde-libksane 
+name=kde-ksaneplugin
+release=1
 
 _name=ksaneplugin
 
