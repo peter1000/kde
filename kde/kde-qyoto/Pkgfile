@@ -1,3 +1,9 @@
+# Description : NET/Mono bindings for the Qt libraries
+# URL: https://www.kde.org/
+# Packager: pierre at nutyx dot org, fanch at nutyx dot org, tnut at nutyx dot org
+# Depends on: cmake automoc4 kde-libs mono kde-smokeqt kde-smokegen 
+name=kde-qyoto
+release=1
 
 _name=qyoto
 
