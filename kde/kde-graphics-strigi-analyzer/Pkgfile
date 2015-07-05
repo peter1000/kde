@@ -1,3 +1,9 @@
+# Description : Strigi analyzers for various graphics file formats
+# URL: https://www.kde.org/
+# Packager: pierre at nutyx dot org, fanch at nutyx dot org, tnut at nutyx dot org
+# Depends on: cmake automoc4 kde-libs 
+name=kde-graphics-strigi-analyzer
+release=1
 
 _name=kdegraphics-strigi-analyzer
 source=(http://download.kde.org/stable/$version/src/${_name}-$version.tar.xz)
