@@ -1,3 +1,9 @@
+# Description : kcolorchooser, utility of choice of color on KDE
+# URL: https://www.kde.org/
+# Packager: pierre at nutyx dot org, fanch at nutyx dot org, tnut at nutyx dot org
+# Depends on: cmake automoc4 kde-libs 
+name=kde-kcolorchooser
+release=1
 
 _name=kcolorchooser
 
