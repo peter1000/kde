@@ -1,3 +1,9 @@
+# Description : Connect all the terminals to the server, in as few turns as possible
+# URL: https://www.kde.org/
+# Packager: pierre at nutyx dot org, fanch at nutyx dot org, tnut at nutyx dot org
+# Depends on: cmake automoc4 kde-libkdegames 
+name=kde-knetwalk
+release=1
 
 _name=knetwalk
 
