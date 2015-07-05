@@ -1,3 +1,9 @@
+# Description : A nonogram logic game for KDE
+# URL: https://www.kde.org/
+# Packager: pierre at nutyx dot org, fanch at nutyx dot org, tnut at nutyx dot org
+# Depends on: cmake automoc4 kde-libkdegames 
+name=kde-picmi
+release=1
 
 _name=picmi
 
