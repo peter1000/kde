@@ -1,3 +1,9 @@
+# Description : A tool for managing print jobs and printers
+# URL: https://www.kde.org/
+# Packager: pierre at nutyx dot org, fanch at nutyx dot org, tnut at nutyx dot org
+# Depends on: cmake automoc4 cups kde-runtime 
+name=kde-print-manager
+release=1
 
 _name=print-manager
 
