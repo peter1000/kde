@@ -1,3 +1,9 @@
+# Description : A solitaire-like game played using the standard set of Mahjong tiles
+# URL: https://www.kde.org/
+# Packager: pierre at nutyx dot org, fanch at nutyx dot org, tnut at nutyx dot org
+# Depends on: cmake automoc4 kde-libkdegames kde-libkmahjongg 
+name=kde-kshisen
+release=1
 
 _name=kshisen
 
