@@ -1,3 +1,9 @@
+# Description : Configure your remote controls for use with applications
+# URL: https://www.kde.org/
+# Packager: pierre at nutyx dot org, fanch at nutyx dot org, tnut at nutyx dot org
+# Depends on: cmake automoc4 xorg-libx11 kde-workspace 
+name=kde-kremotecontrol
+release=1
 
 _name=kremotecontrol
 
