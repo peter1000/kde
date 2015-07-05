@@ -1,3 +1,9 @@
+# Description : A library to add mathematical features to your program
+# URL: https://www.kde.org/
+# Packager: pierre at nutyx dot org, fanch at nutyx dot org, tnut at nutyx dot org
+# Depends on: cmake automoc4 kde-libs 
+name=kde-analitza
+release=1
 
 _name=analitza
 
