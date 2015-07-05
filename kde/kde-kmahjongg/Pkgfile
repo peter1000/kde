@@ -1,3 +1,9 @@
+# Description : kmahjongg, games of mahjongg under KDE
+# URL: https://www.kde.org/
+# Packager: pierre at nutyx dot org, fanch at nutyx dot org, tnut at nutyx dot org
+# Depends on: cmake automoc4 kde-libkmahjongg 
+name=kde-kmahjongg
+release=1
 
 _name=kmahjongg
 
