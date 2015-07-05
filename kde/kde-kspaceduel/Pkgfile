@@ -1,3 +1,9 @@
+# Description : Each of two possible players controls a satellite spaceship orbiting the sun
+# URL: https://www.kde.org/
+# Packager: pierre at nutyx dot org, fanch at nutyx dot org, tnut at nutyx dot org
+# Depends on: cmake automoc4 kde-libkdegames 
+name=kde-kspaceduel
+release=1
 
 _name=kspaceduel
 
