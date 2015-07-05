@@ -1,3 +1,9 @@
+# Description : Analyzer plugins for strigi
+# URL: https://www.kde.org/
+# Packager: pierre at nutyx dot org, fanch at nutyx dot org, tnut at nutyx dot org
+# Depends on: cmake automoc4 kde-libs 
+name=kde-sdk-strigi-analyzers
+release=1
 
 _name=kdesdk-strigi-analyzers
 
