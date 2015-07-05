@@ -1,3 +1,9 @@
+# Description : The Oxygen Icon Theme (Scalable Vector Graphics)
+# URL: https://www.kde.org/
+# Packager: pierre at nutyx dot org, fanch at nutyx dot org, tnut at nutyx dot org
+# Depends on: cmake 
+name=kde-oxygen-icons-svg
+release=1
 
 _name=oxygen-icons-svg
 _name=oxygen-icons
