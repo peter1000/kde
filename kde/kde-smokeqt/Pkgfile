@@ -1,3 +1,9 @@
+# Description : Language independent library for Qt bindings
+# URL: https://www.kde.org/
+# Packager: pierre at nutyx dot org, fanch at nutyx dot org, tnut at nutyx dot org
+# Depends on: cmake automoc4 kde-libs qimageblitz kde-smokegen 
+name=kde-smokeqt
+release=1
 
 _name=smokeqt
 
