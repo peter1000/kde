@@ -1,3 +1,9 @@
+# Description : klettres, a program KDE for learn l'alphabet on KDE
+# URL: https://www.kde.org/
+# Packager: pierre at nutyx dot org, fanch at nutyx dot org, tnut at nutyx dot org
+# Depends on: cmake automoc4 kde-libs 
+name=kde-klettres
+release=1
 
 _name=klettres
 
