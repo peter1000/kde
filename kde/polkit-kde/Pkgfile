@@ -1,7 +1,7 @@
 # Description: Daemon providing a polkit authentication UI for KDE
 # URL: http://www.kde.org
 # Packager: pierre at nutyx dot org
-# Depends on: kde-libs polkit-qt 
+# Depends on: kde-libs polkit-qt4
 
 name=polkit-kde
 version=0.99.0
