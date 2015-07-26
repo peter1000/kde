@@ -5,10 +5,10 @@
 
 name=kde-baseapps
 # version=4.14.3
-release=1
+release=2
 
 source=(http://download.kde.org/stable/applications/$version/src/$name-$version.tar.xz)
-run=(kwebkitpart)
+
 build() {
 cd $name-$version
 mkdir build
