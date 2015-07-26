@@ -1,10 +1,10 @@
 # Description: KDE Software Compilation 4 is a comprehensive desktop environment with a huge number of applications written for it and a huge amount of users. It is based on the Qt framework.
 # URL: http://www.kde.org
 # Packager: pierre at nutyx dot org
-# Depends on: kde-activities kde-artwork kde-baloo kde-baloo-widgets kde-baseapps kde-base-artwork kde-filemetadata kde-graphics-mobipocket kde-libs kde-oxygen-icons kde-oxygen-icons-svg kde-pim kde-pimlibs kde-pim-runtime kde-plasma-addons kde-runtime kde-walletmanager kde-wallpapers kde-workspace phonon-backend-vlc polkit-kde
-run=(kde-activities kde-artwork kde-baloo kde-baloo-widgets kde-baseapps kde-base-artwork kde-filemetadata kde-graphics-mobipocket kde-libs kde-oxygen-icons kde-oxygen-icons-svg kde-pim kde-pimlibs kde-pim-runtime kde-plasma-addons kde-runtime kde-walletmanager kde-wallpapers kde-workspace phonon-backend-vlc polkit-kde)
+# Depends on: phonon phonon-backend-gstreamer phonon-backend-vlc polkit-qt4 automoc akonadi attica qimageblitz kde-oxygen-icons kde-oxygen-icons-svg kde-libs kde-filemetadata kde-pimlibs kde-baloo kde-baloo-widgets polkit-kde kde-activities kde-runtime kde-baseapps kde-base-artwork kde-workspace
+         run=(phonon phonon-backend-gstreamer phonon-backend-vlc polkit-qt4 automoc akonadi attica qimageblitz kde-oxygen-icons kde-oxygen-icons-svg kde-libs kde-filemetadata kde-pimlibs kde-baloo kde-baloo-widgets polkit-kde kde-activities kde-runtime kde-baseapps kde-base-artwork kde-workspace)
 name=kde
-version=15.04.1
+version=15.04.2
 release=1
 
 source=()
