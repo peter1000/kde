@@ -1,12 +1,12 @@
 # Description: Wired and wireless network manager for Linux
 # URL: http://kde-apps.org/content/show.php/Wicd+Client+KDE?content=132366
 # Packager: pierre at nutyx dot org
-# Depends on: cmake automoc4 kde-libs qt wicd 
+# Depends on: cmake automoc4 kde-libs qt4 wicd 
 _name=wicd-kde
 
 name=kde-wicd
 version=0.3.1
-release=1
+release=2
 
 source=(http://kde-apps.org/CONTENT/content-files/132366-${_name}-${version}.tar.gz )
 
