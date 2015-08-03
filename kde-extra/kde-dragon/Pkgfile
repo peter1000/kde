@@ -1,9 +1,9 @@
 # Description : A multimedia player where the focus is on simplicity, instead of features
 # URL: https://www.kde.org/
 # Packager: pierre at nutyx dot org, fanch at nutyx dot org, tnut at nutyx dot org
-# Depends on: qt cmake automoc4 kde-runtime 
+# Depends on: qt4 cmake automoc4 kde-runtime 
 name=kde-dragon
-release=1
+release=2
 
 _name=dragon
 
