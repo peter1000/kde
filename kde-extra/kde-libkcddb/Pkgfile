@@ -1,13 +1,13 @@
 # Description: KDE CDDB library
 # URL: http://www.kde.org
 # Packager: pierre at nutyx dot org
-# Depends on: qt cmake automoc4 kde-libs libmusicbrainz 
+# Depends on: qt4 cmake automoc4 kde-libs libmusicbrainz 
 
 _name=libkcddb
 
 name=kde-libkcddb
 # version=4.14.3
-release=1
+release=2
 
 source=(http://download.kde.org/stable/applications/$version/src/${_name}-$version.tar.xz)
 
