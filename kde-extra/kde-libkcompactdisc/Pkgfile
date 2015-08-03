@@ -1,9 +1,9 @@
 # Description : A library for interfacing with CDs
 # URL: https://www.kde.org/
 # Packager: pierre at nutyx dot org, fanch at nutyx dot org, tnut at nutyx dot org
-# Depends on: qt cmake automoc4 kde-libs 
+# Depends on: qt4 cmake automoc4 kde-libs 
 name=kde-libkcompactdisc
-release=1
+release=2
 
 _name=libkcompactdisc
 
