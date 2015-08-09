@@ -3,12 +3,13 @@
 # Packager: pierre at nutyx dot org, fanch at nutyx dot org, tnut at nutyx dot org
 # Depends on: cmake automoc4 kde-libs 
 name=kde-amor
-release=1
+version=15.04.2
+release=2
+
+source=(http://download.kde.org/stable/applications/$version/src/${_name}-$version.tar.xz)
 
 _name=amor
 
-source=(http://download.kde.org/stable/$version/src/${_name}-$version.tar.xz)
-	
 build() {
 	cd ${_name}-$version
 	mkdir build
@@ -20,4 +21,3 @@ build() {
 	make
 	make DESTDIR=$PKG install
 }
-
