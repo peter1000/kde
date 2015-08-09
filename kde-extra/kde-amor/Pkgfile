@@ -4,11 +4,9 @@
 # Depends on: cmake automoc4 kde-libs 
 name=kde-amor
 version=15.04.2
-release=2
-
-source=(http://download.kde.org/stable/applications/$version/src/${_name}-$version.tar.xz)
-
+release=3
 _name=amor
+source=(http://download.kde.org/stable/applications/$version/src/${_name}-$version.tar.xz)
 
 build() {
 	cd ${_name}-$version
