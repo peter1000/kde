@@ -3,12 +3,10 @@
 # Packager: pierre at nutyx dot org, fanch at nutyx dot org, tnut at nutyx dot org
 # Depends on: cmake automoc4 kde-libs 
 name=kde-kget
-release=1
-
+version=15.04.2
+release=2
 _name=kget
-
-source=(http://download.kde.org/stable/$version/src/${_name}-$version.tar.xz)
-	
+source=(http://download.kde.org/stable/applications/$version/src/${_name}-$version.tar.xz)
 build() {
 	cd ${_name}-$version
 	mkdir build
@@ -20,4 +18,3 @@ build() {
 	make
 	make DESTDIR=$PKG install
 }
-
