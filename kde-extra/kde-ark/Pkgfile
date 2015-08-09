@@ -3,10 +3,11 @@
 # Packager: tnut at nutyx dot org
 # Depends on: kde-baseapps libarchive qjson
 name=kde-ark
-release=1
+version=15.04.2
+release=3
 _name=ark
 
-source=(http://download.kde.org/stable/applications/$version/src/${_name}-$version.tar.xz )
+source=(http://download.kde.org/stable/applications/$version/src/${_name}-$version.tar.xz)
 
 build() {
 	cd ${_name}-$version
