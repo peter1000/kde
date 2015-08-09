@@ -3,10 +3,11 @@
 # Packager: pierre at nutyx dot org, fanch at nutyx dot org, tnut at nutyx dot org
 # Depends on: cmake automoc4 kde-libs eigen2 kde-libkexiv2 kde-workspace 
 name=kde-artwork
-release=1
+version=15.04.2
+release=2
 
 _name=kdeartwork
-source=(http://download.kde.org/stable/$version/src/${_name}-$version.tar.xz)
+source=(http://download.kde.org/stable/applications/$version/src/${_name}-$version.tar.xz)
 
 build() {
 	cd ${_name}-$version
