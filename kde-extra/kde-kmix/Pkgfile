@@ -2,15 +2,11 @@
 # URL: http://www.kde.org
 # Packager: pierre at nutyx dot org
 # Depends on: kde-libs libcanberra pulseaudio 
-
-_name=kmix
-
 name=kde-kmix
-# version=4.14.3
-release=1
-
+_name=kmix
+version=15.04.2
+release=2
 source=(http://download.kde.org/stable/applications/$version/src/${_name}-$version.tar.xz)
-
 build() {
 	cd ${_name}-$version
         mkdir build
