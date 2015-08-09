@@ -3,12 +3,10 @@
 # Packager: pierre at nutyx dot org, fanch at nutyx dot org, tnut at nutyx dot org
 # Depends on: qt4 cmake automoc4 kde-libs taglib taglib-extras 
 name=kde-juk
+version=15.04.2
 release=2
-
 _name=juk
-
-source=(http://download.kde.org/stable/$version/src/${_name}-$version.tar.xz)
-
+source=(http://download.kde.org/stable/applications/$version/src/${_name}-$version.tar.xz)
 build() {
 	cd ${_name}-$version
         mkdir build
