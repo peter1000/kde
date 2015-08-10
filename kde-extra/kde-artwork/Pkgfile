@@ -1,7 +1,7 @@
 # Description : kdeartwork, Themes additional for KDE
 # URL: https://www.kde.org/
 # Packager: pierre at nutyx dot org, fanch at nutyx dot org, tnut at nutyx dot org
-# Depends on: cmake automoc4 kde-libs eigen2 kde-libkexiv2 kde-workspace 
+# Depends on: eudev cmake automoc4 kde-libs eigen2 kde-libkexiv2 kde-workspace 
 name=kde-artwork
 version=15.04.2
 release=2
