@@ -83,7 +83,7 @@ It will explain you what's a collection, a git, a port, the tools around 'cards'
 
  then you are ready to compile the 'kde-extra' collection
 
-    # cd /root/kde-extra
+    # cd /root/kde
     # bash scripts/kde-extra -s
     # bash scripts/kde-extra -a 
 
