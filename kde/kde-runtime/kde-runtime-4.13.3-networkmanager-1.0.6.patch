@@ -1,0 +1,13 @@
+diff --git a/solid-networkstatus/kded/CMakeLists.txt b/solid-networkstatus/kded/CMakeLists.txt
+index 633c7f1..341a1ed 100644
+--- a/solid-networkstatus/kded/CMakeLists.txt
++++ b/solid-networkstatus/kded/CMakeLists.txt
+@@ -20,7 +20,7 @@ if(NETWORKMANAGER_FOUND)
+     if(NM_0_7)
+         MESSAGE(STATUS "Adding in-process NetworkManager service-wart to kded module")
+         set(kded_networkstatus_PART_SRCS ${kded_networkstatus_PART_SRCS} networkmanagerstatus.cpp)
+-        include_directories(${NETWORKMANAGER_INCLUDE_DIRS})
++        include_directories(${NETWORKMANAGER_INCLUDE_DIRS} ${NM-UTIL_INCLUDE_DIRS})
+         add_definitions(-DNM_BACKEND_ENABLED)
+     endif(NM_0_7)
+ endif(NETWORKMANAGER_FOUND)

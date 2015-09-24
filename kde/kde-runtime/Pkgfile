@@ -3,17 +3,17 @@
 # Packager: pierre at nutyx dot org
 # Depends on: automoc4 cmake kde-libs kde-pimlibs alsa-lib libjpeg-turbo exiv2 pulseaudio xine-lib libcanberra networkmanager libssh openexr samba kde-activities qca 
 
-
 _name=kde-runtime
 
 name=kde-runtime
-# version=4.14.3
 release=1
 
-source=(http://download.kde.org/stable/applications/$version/src/${_name}-$version.tar.xz)
+source=(http://download.kde.org/stable/applications/$version/src/${_name}-$version.tar.xz
+	kde-runtime-4.13.3-networkmanager-1.0.6.patch)
 	
 build() {
 cd ${_name}-$version
+patch -Np1 -i ../kde-runtime-4.13.3-networkmanager-1.0.6.patch
 mkdir build
 cd build
 cmake -DCMAKE_INSTALL_PREFIX=/usr         \
