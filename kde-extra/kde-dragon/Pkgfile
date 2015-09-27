@@ -6,7 +6,7 @@ name=kde-dragon
 release=2
 
 _name=dragon
-
+version=4.14.3
 source=(http://download.kde.org/stable/$version/src/${_name}-$version.tar.xz)
 
 build() {
