@@ -1,0 +1,6 @@
+. lib/lsb/init-functions
+if [ -f etc/inittab ]; then
+ sed -i 's#id:3:initdefault:#id:5:initdefault:#' etc/inittab && log_success_msg2  "Init default set to 5 in the ${WARNING}/etc/inittab ${NORMAL}file"
+fi
+log_warning_msg "${WARNING}To use kdm instead lxdm as login manager:${NORMAL}"
+log_warning_msg "remove lxdm and add ${WARNING}kd:5:respawn:/usr/bin/kdm${NORMAL} in /etc/inittab file"

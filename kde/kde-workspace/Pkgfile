@@ -1,11 +1,11 @@
-# Description: Components that are central to providing the KDE desktop environment. Of particular importance are KWin, the KDE window manager, and Plasma, which provides the workspace interface. 
+# Description: Components that are central to providing the KDE desktop environment, the KDE window manager, kdm (kde display manager)  and Plasma, which provides the workspace interface.
 # URL: http://www.kde.org
 # Packager: pierre at nutyx dot org, tnut at nutyx dot org
-# Depends on: kde-activities qimageblitz xcb-util-image xcb-util-renderutil libxcb xcb-proto xcb-util xcb-util-keysyms xcb-util-wm kde-pimlibs boost freetype pciutils consolekit2 libusb libusb-compat networkmanager lm-sensors qjson xorg-libx11 xorg-xkeyboard-config 
+# Depends on: kde-activities qimageblitz xcb-util-image xcb-util-renderutil libxcb xcb-proto xcb-util xcb-util-keysyms xcb-util-wm kde-pimlibs boost freetype pciutils consolekit2 libusb libusb-compat networkmanager lm-sensors qjson xorg-libx11 xorg-xkeyboard-config
 
 name=kde-workspace
 version=4.11.21
-release=1
+release=2
 
 source=(http://download.kde.org/stable/applications/15.04.3/src/$name-$version.tar.xz
         kde-workspace.pam
@@ -42,4 +42,13 @@ mv $PKG/usr/share/config/kdm/kdmrc \
 $PKG/etc/kde/kdmrc
 ln -sv /etc/kde/kdmrc \
 $PKG/usr/share/config/kdm/kdmrc
+
+# Pour lxdm
+mkdir -p $PKG/usr/share/xsessions
+local DESKTOP
+for DESKTOP in kde-plasma-safe.desktop kde-plasma.desktop
+do
+   ln -s /usr/share/apps/kdm/sessions/${DESKTOP} \
+$PKG/usr/share/xsessions
+done
 }
