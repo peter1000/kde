@@ -4,7 +4,7 @@
 # Depends on: cmake automoc4 kde-libs 
 name=kde-cervisia
 release=1
-
+version=4.14.3
 _name=cervisia
 
 source=(http://download.kde.org/stable/$version/src/${_name}-$version.tar.xz)
@@ -20,4 +20,3 @@ build() {
 	make
 	make DESTDIR=$PKG install
 }
-
