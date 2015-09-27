@@ -6,7 +6,7 @@
 _name=ksnapshot
 
 name=kde-ksnapshot
-# version=4.14.3
+version=15.04.3
 release=1
 
 source=(http://download.kde.org/stable/applications/$version/src/${_name}-$version.tar.xz )
