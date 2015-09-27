@@ -7,6 +7,7 @@ _name=kamera
 
 name=kde-kamera
 release=1
+version=15.04.3
 
 source=( http://download.kde.org/stable/applications/$version/src/${_name}-$version.tar.xz)
 
