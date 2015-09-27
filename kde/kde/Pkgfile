@@ -4,8 +4,8 @@
 # Depends on: phonon phonon-backend-gstreamer phonon-backend-vlc polkit-qt4 automoc4 akonadi attica qimageblitz kde-oxygen-icons kde-oxygen-icons-svg kde-libs kde-graphics-mobipocket kde-filemetadata kde-pimlibs kde-baloo kde-baloo-widgets polkit-kde kde-activities kde-runtime kde-baseapps kde-base-artwork kde-workspace
 run=(phonon phonon-backend-gstreamer phonon-backend-vlc polkit-qt4 automoc4 akonadi attica qimageblitz kde-oxygen-icons kde-oxygen-icons-svg kde-libs kde-graphics-mobipocket kde-filemetadata kde-pimlibs kde-baloo kde-baloo-widgets polkit-kde kde-activities kde-runtime kde-baseapps kde-base-artwork kde-workspace)
 name=kde
-version=15.04.2
-release=1
+version=15.04.3
+release=2
 
 source=()
 build() {
