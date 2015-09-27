@@ -3,6 +3,7 @@
 # Packager: pierre at nutyx dot org, fanch at nutyx dot org, tnut at nutyx dot org
 # Depends on: cmake automoc4 kde-libs 
 name=kde-poxml
+version=4.14.3
 release=1
 
 _name=poxml
@@ -20,4 +21,3 @@ build() {
 	make
 	make DESTDIR=$PKG install
 }
-
