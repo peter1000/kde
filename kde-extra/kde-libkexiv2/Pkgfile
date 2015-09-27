@@ -5,8 +5,8 @@
 
 _name=libkexiv2
 name=kde-libkexiv2
-version=15.04.2
-release=2
+version=15.04.3
+release=1
 
 source=(http://download.kde.org/stable/applications/$version/src/${_name}-$version.tar.xz)
 
