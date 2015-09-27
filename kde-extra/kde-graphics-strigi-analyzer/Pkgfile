@@ -4,7 +4,7 @@
 # Depends on: cmake automoc4 kde-libs 
 name=kde-graphics-strigi-analyzer
 release=1
-
+version=4.14.3
 _name=kdegraphics-strigi-analyzer
 source=(http://download.kde.org/stable/$version/src/${_name}-$version.tar.xz)
 
