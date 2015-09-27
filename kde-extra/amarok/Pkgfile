@@ -1,7 +1,7 @@
 # Description : Powerful audio player for the KDE environment. Features include a context browser, integration with many online music services and support for management of several digital music players including Apple's iPod
 # URL: https://www.kde.org/
 # Packager: pierre at nutyx dot org, fanch at nutyx dot org, tnut at nutyx dot org
-# Depends on: automoc4 kde-lib kde-baseapps taglib taglib-extras ffmpeg curl libxml2 openssl qjson
+# Depends on: automoc4 kde-libs taglib taglib-extras ffmpeg curl libxml2 openssl qjson
 name=amarok
 release=2
 version=2.8.0
