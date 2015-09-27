@@ -1,13 +1,13 @@
 # Description: Kate and KWrite. Kate is a powerful programmer's text editor 
 # URL: http://www.kde.org
 # Packager: pierre at nutyx dot org
-# Depends on: kde-libs kde-activities python-kde qjson 
+# Depends on: kde-libs kde-activities qjson 
 
 _name=kate
 
 name=kde-kate
 version=4.14.3
-release=2
+release=1
 
 source=(http://download.kde.org/stable/$version/src/${_name}-$version.tar.xz )
 
