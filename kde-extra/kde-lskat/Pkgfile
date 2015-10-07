@@ -3,6 +3,7 @@
 # Packager: pierre at nutyx dot org, fanch at nutyx dot org, tnut at nutyx dot org
 # Depends on: cmake automoc4 kde-libkdegames 
 name=kde-lskat
+version=4.13.3
 release=1
 
 _name=lskat
