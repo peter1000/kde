@@ -1,16 +1,17 @@
 # Description: tool of synchronization of files
 # URL: http://synkron.sourceforge.net/
 # Packager: pierre at nutyx dot org
-# Depends on: automoc4 qt4 xdg-utils 
+# Depends on: automoc4 qt4 xdg-utils
 run=( xdg-utils )
 name=synkron
 version=1.6.2
-release=2
+release=3
 
 source=(http://downloads.sourceforge.net/project/synkron/synkron/$version/Synkron-$version-src.tar.gz
 	http://downloads.nutyx.org/files/patchs/$name/$name-$version-config-1.patch
 	$name.desktop )
 build() {
+source setqt4
 cd Synkron-$version-src
 patch -Np1 -i ../$name-$version-config-1.patch
 lrelease Synkron.pro
