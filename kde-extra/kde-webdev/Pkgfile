@@ -3,6 +3,7 @@
 # Packager: pierre at nutyx dot org, fanch at nutyx dot org, tnut at nutyx dot org
 # Depends on: cmake automoc4 kde-libs kde-pimlibs ruby 
 name=kde-webdev
+version=4.14.3
 release=1
 
 _name=kdewebdev
