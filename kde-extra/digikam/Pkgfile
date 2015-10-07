@@ -1,7 +1,7 @@
 # Description: Digital photo management application for KDE
 # URL: http://www.digikam.org/
 # Packager: pierre at nutyx dot org
-# Depends on: automoc4 kde-pimlibs imagemagick sqlite qoauth doxygen kde-libksane kde-libkdcraw kde-libkipi kde-libkexiv2 opencv qjson kde-marble kipi-plugins libgphoto2 kde-kgamma mysql lensfun 
+# Depends on: automoc4 kde-pimlibs imagemagick sqlite qoauth doxygen kde-libksane kde-libkdcraw kde-libkipi kde-libkexiv2 opencv qjson kde-marble kipi-plugins libgphoto2 kde-kgamma lensfun
 
 name=digikam
 version=4.4.0
