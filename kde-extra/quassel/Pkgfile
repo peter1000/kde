@@ -1,4 +1,12 @@
+# Description: Quassel is a IRC client distributed for KDE
+# URL: http://quassel-irc.org/
+# Maintainers: Manuel "Sputnick" Nickschas, Marcus "EgS" Eggenberger, Alexander "phon" von Renteln
+# Packager: pierre at nutyx dot org
+# Depends on: cmake kde-runtime automoc4
+
+name=quassel
 version=0.9.2
+release=2
 
 source=(http://quassel-irc.org/pub/$name-$version.tar.bz2)
 
