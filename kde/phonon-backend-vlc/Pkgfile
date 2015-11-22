@@ -1,11 +1,11 @@
 # Description: phonon-backend-vlc, plugin audio for KDE
 # URL: http://phonon.kde.org
-# Packager: pierre at nutyx dot org
-# Depends on: phonon gstreamer vlc 
+# Packager: pierre at nutyx dot org, tnut at nutyx dot org
+# Depends on: phonon libvlc 
 
 name=phonon-backend-vlc
 version=0.8.2
-release=1
+release=2
 
 source=(http://download.kde.org/stable/phonon/$name/$version/src/$name-$version.tar.xz)
 
