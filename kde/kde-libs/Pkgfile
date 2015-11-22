@@ -6,9 +6,9 @@
 _name=kdelibs
 
 name=kde-libs
-version=4.14.10
-kde_version=15.04.3
-release=3
+version=4.14.14
+kde_version=15.08.3
+release=1
 
 source=(http://download.kde.org/stable/applications/${kde_version}/src/${_name}-$version.tar.xz)
 run=(upower udisks udisks2)
