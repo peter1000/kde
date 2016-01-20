@@ -17,11 +17,12 @@ patch -Np1 -i ../kde-runtime-4.13.3-networkmanager-1.0.6.patch
 mkdir build
 cd build
 cmake -DCMAKE_INSTALL_PREFIX=/usr         \
-      -DSYSCONF_INSTALL_DIR=/etc/kde             \
-      -DCMAKE_BUILD_TYPE=Release                 \
-      -DSAMBA_INCLUDE_DIR=/usr/include/samba-4.0 \
-      -DWITH_NepomukCore=OFF \
-      -Wno-dev .. 
+-DSYSCONF_INSTALL_DIR=/etc/kde             \
+-DCMAKE_BUILD_TYPE=Release                 \
+-DSAMBA_INCLUDE_DIR=/usr/include/samba-4.0 \
+-DWITH_NepomukCore=OFF \
+-DCMAKE_MINIMUM_REQUIRED_VERSION=3.0 \
+-Wno-dev .. 
 make
 make DESTDIR=$PKG install
 ln -sf $PKG//usr/lib/kde4/libexec/kdesu $PKG//usr/bin/kdesu
