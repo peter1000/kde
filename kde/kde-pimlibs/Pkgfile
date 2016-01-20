@@ -9,7 +9,7 @@ _name=kdepimlibs
 name=kde-pimlibs
 version=4.14.10
 _version=15.04.3
-release=1
+release=2
 
 source=(http://download.kde.org/stable/applications/${_version}/src/${_name}-${version}.tar.xz)
 	
@@ -19,6 +19,7 @@ mkdir build
 cd build
 cmake -DCMAKE_INSTALL_PREFIX=/usr \
 -DCMAKE_BUILD_TYPE=Release \
+-DCMAKE_MINIMUM_REQUIRED_VERSION=3.0 \
 -Wno-dev ..
 make
 make DESTDIR=$PKG install
