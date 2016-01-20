@@ -5,12 +5,14 @@
 
 name=phonon-backend-gstreamer
 version=4.8.2
-release=1
+release=2
 
-source=(http://download.kde.org/stable/phonon/$name/$version/src/$name-$version.tar.xz)
+source=(http://download.kde.org/stable/phonon/$name/$version/src/$name-$version.tar.xz 
+	http://www.linuxfromscratch.org/patches/blfs/svn/phonon-backend-gstreamer-$version-compatibility-1.patch)
 
 build() {
 	cd $name-$version
+	patch -Np1 -i ../phonon-backend-gstreamer-4.8.2-compatibility-1.patch
 	mkdir build
 	cd build
 	cmake -DCMAKE_INSTALL_PREFIX=/usr \
