@@ -4,8 +4,7 @@
 # Depends on: automoc4 cmake kde-libs kde-activities kde-filemetadata kde-baloo kde-baloo-widgets glib
 
 name=kde-baseapps
-# version=4.14.3
-release=2
+release=1
 
 source=(http://download.kde.org/stable/applications/$version/src/$name-$version.tar.xz)
 
@@ -14,8 +13,9 @@ cd $name-$version
 mkdir build
 cd build
 cmake -DCMAKE_INSTALL_PREFIX=/usr \
-      -DCMAKE_BUILD_TYPE=Release  \
-      -Wno-dev ..
+-DCMAKE_BUILD_TYPE=Release  \
+-DCMAKE_MINIMUM_REQUIRED_VERSION=3.0 \
+-Wno-dev ..
 make
 make DESTDIR=$PKG install
 }
