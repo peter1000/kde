@@ -4,7 +4,7 @@
 # Depends on: cmake automoc4 kde-libs kde-pimlibs v4l-utils qimageblitz 
 name=kde-kopete
 version=4.14.3
-release=1
+release=2
 
 _name=kopete
 
@@ -17,6 +17,7 @@ build() {
 	cmake ../ -DCMAKE_INSTALL_PREFIX=/usr \
                 -DSYSCONF_INSTALL_DIR=/etc/kde \
 		-DCMAKE_BUILD_TYPE=Release \
+		-DCMAKE_MINIMUM_REQUIRED_VERSION=3.0 \
 		-DMOZPLUGIN_INSTALL_DIR="/usr/lib/mozilla/plugins" \
 		..
 	make 
