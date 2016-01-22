@@ -1,10 +1,10 @@
 # Description : kget, administrator of downloads on KDE
 # URL: https://www.kde.org/
 # Packager: pierre at nutyx dot org, fanch at nutyx dot org, tnut at nutyx dot org
-# Depends on: cmake automoc4 kde-libs 
+# Depends on: boost cmake automoc4 kde-libs 
 name=kde-kget
 version=15.04.2
-release=2
+release=3
 _name=kget
 source=(http://download.kde.org/stable/applications/$version/src/${_name}-$version.tar.xz)
 build() {
@@ -13,6 +13,7 @@ build() {
 	cd build
 	cmake -DCMAKE_INSTALL_PREFIX=/usr \
 		-DCMAKE_BUILD_TYPE=Release \
+		-DCMAKE_MINIMUM_REQUIRED_VERSION=3.0 \
       		-DSYSCONF_INSTALL_DIR=/etc/kde \
       		.. 
 	make
