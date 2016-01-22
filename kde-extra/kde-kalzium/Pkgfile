@@ -3,7 +3,7 @@
 # Packager: pierre at nutyx dot org, fanch at nutyx dot org, tnut at nutyx dot org
 # Depends on: cmake automoc4 kde-libs 
 name=kde-kalzium
-release=1
+release=2
 
 _name=kalzium
 version=4.14.3
@@ -15,6 +15,7 @@ build() {
 	cd build
 	cmake -DCMAKE_INSTALL_PREFIX=/usr \
 		-DCMAKE_BUILD_TYPE=Release \
+		-DCMAKE_MINIMUM_REQUIRED_VERSION=3.0 \
       		-DSYSCONF_INSTALL_DIR=/etc/kde \
       		.. 
 	make
