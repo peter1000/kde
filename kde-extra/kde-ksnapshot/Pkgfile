@@ -7,7 +7,7 @@ _name=ksnapshot
 
 name=kde-ksnapshot
 version=15.04.3
-release=1
+release=2
 
 source=(http://download.kde.org/stable/applications/$version/src/${_name}-$version.tar.xz )
 
@@ -17,6 +17,7 @@ build() {
 	cd build
 	cmake -DCMAKE_INSTALL_PREFIX=/usr \
       		-DSYSCONF_INSTALL_DIR=/etc/kde \
+		-DCMAKE_MINIMUM_REQUIRED_VERSION=3.0 \
 		-DCMAKE_BUILD_TYPE=Release \
       		..
 	make
