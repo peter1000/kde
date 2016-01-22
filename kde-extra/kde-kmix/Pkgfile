@@ -5,13 +5,14 @@
 name=kde-kmix
 _name=kmix
 version=15.04.3
-release=1
+release=2
 source=(http://download.kde.org/stable/applications/$version/src/${_name}-$version.tar.xz)
 build() {
 	cd ${_name}-$version
         mkdir build
         cd build
 	cmake -DCMAKE_INSTALL_PREFIX=/usr \
+		-DCMAKE_MINIMUM_REQUIRED_VERSION=3.0 \
 		-DCMAKE_BUILD_TYPE=Release \
       		-Wno-dev ..
         make
