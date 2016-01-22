@@ -17,6 +17,7 @@ build() {
 	cmake -DCMAKE_INSTALL_PREFIX=/usr \
 		-DCMAKE_BUILD_TYPE=Release \
       		-DSYSCONF_INSTALL_DIR=/etc/kde \
+		-DCMAKE_MINIMUM_REQUIRED_VERSION=3.0 \
       		.. 
 	make
 	make DESTDIR=$PKG install
