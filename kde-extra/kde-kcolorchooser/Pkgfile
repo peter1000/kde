@@ -16,6 +16,7 @@ build() {
 	cd build
 	cmake -DCMAKE_INSTALL_PREFIX=/usr \
 		-DCMAKE_BUILD_TYPE=Release \
+		-DCMAKE_MINIMUM_REQUIRED_VERSION=3.0 \
       		-DSYSCONF_INSTALL_DIR=/etc/kde \
       		.. 
 	make
